@@ -9,8 +9,7 @@ set "PATH=%INSTALL_DIR%;%INSTALL_DIR%\Scripts;%PATH%"
 :: -------------------
 
 echo =================================================================
-echo                      Start FaceFusion
-echo                      
+echo                      Start FaceFusion                
 echo =================================================================
 
 cd %ProjectDir%
