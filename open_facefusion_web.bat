@@ -10,6 +10,8 @@ set "PATH=%INSTALL_DIR%;%INSTALL_DIR%\Scripts;%PATH%"
 
 echo =================================================================
 echo                      Start FaceFusion                
+echo                   http://127.0.0.1:7860
+echo                  [ ctrl + double click ]
 echo =================================================================
 
 cd %ProjectDir%
