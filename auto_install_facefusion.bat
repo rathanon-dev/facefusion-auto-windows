@@ -247,6 +247,9 @@ EXIT /B 0
 :: MAIN SCRIPT
 :MAIN
 call :check_cuda_driver 
+call :check_installation git "winget install --id=Git.Git -e --source winget"
+call :check_installation ffmpeg "winget install --id=Gyan.FFmpeg -e --source winget"
+call :check_installation curl "winget install --id=cURL.cURL  -e --source winget"
 call :check_and_install_miniconda 
 echo Setting up environment for this session...
 set "PATH=%INSTALL_DIR%;%INSTALL_DIR%\Scripts;%PATH%"   
