@@ -255,7 +255,6 @@ call :check_conda_environment "%ENV_DIR%"
 call :check_cuda_cudnn "%ENV_DIR%" 
 call :check_and_clone_facefusion
 call :check_install_facefusion
-pause >nul
 echo.
 echo =================================================================
 echo                      Installation Complete!
